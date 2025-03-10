@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("pexels-photo-9031307.jpeg");
+    background-size: cover;
+    color: #fff;
+  }
+  p{
+    margin-bottom: 5px;
+  }
+  h2{
+    margin-left: 24px;
+    font-size: 27px;
+  }
+  
+  .container {
+    border: 2px solid rgb(64, 77, 74);
+    backdrop-filter: blur(30px);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.7rem;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    color: #fff;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.2rem;
+    height: 2.4rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid lightgray; */
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+    background: transparent;
+    color: #cecccc;
+  }
+  
+  .msg {
+    height: 2.3rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 2.8rem;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  form button:hover{
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 5px 5px 10px #1f1f1f;
+    transform: scale(0.98);
+  }
